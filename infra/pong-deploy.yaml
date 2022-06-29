@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: pong-deploy
+  name: pong-deploy
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: pong-deploy
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: pong-deploy
+    spec:
+      containers:
+      - image: nhphat1997/pong:latest
+        name: pong
+        resources: {}
+status: {}
