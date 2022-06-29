@@ -2,7 +2,7 @@
 
 Deploy with
  
-> $ ./deploy
+> $ ./deploy.sh
 
 Once we're bored: 
  
