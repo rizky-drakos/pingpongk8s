@@ -1,5 +1,9 @@
 # pingpongk8s
 
-Deploy with ./deploy
+Deploy with
+ 
+> $ ./deploy
 
-Once we're bored: ./remove.sh
+Once we're bored: 
+ 
+> $ ./remove.sh
