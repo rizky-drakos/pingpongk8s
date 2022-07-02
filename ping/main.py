@@ -6,4 +6,4 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s at %(
 
 if __name__ == "__main__":
     logging.info('Sending a PING!')
-    response = requests.get('http://pong-service.default.svc.cluster.local:8000')
+    requests.get('http://pong-service.default.svc.cluster.local:8000')
