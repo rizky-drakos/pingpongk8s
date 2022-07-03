@@ -1,9 +1,9 @@
 # pingpongk8s
 
-Deploy with
+Deploy with:
  
 > $ ./deploy.sh
 
-Once we're bored: 
+Once you're bored: 
  
 > $ ./remove.sh
